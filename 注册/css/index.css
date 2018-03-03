@@ -1,0 +1,261 @@
+		* {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		
+		header {
+			width: 100%;
+			display: flex;
+		}
+		
+		.logo {
+			width: 6rem;
+			height: 6rem;
+			margin-top: 2%;
+			margin-left: 4%;
+		}
+		
+		.logo>img {
+			width: 100%;
+			height: 5rem;
+		}
+		
+		.logo1 {
+			width: 20rem;
+			height: 6rem;
+			display: block;
+			padding-top: 2.5rem;
+			margin-left: 1rem;
+		}
+		
+		.logo1 span {
+			font-size: 20px;
+			line-height: 24px;
+			padding-top: 14px;
+			font-weight: bold;
+			letter-spacing: 7px;
+		}
+		
+		.logo1 em {
+			font-size: 12px;
+			display: -webkit-inline-box;
+			color: #a3a3a3;
+			font-style: normal;
+		}
+		
+		.divx {
+			width: 100%;
+			background: #3392e2;
+			height: 580px;
+		}
+		
+		#div1 {
+			height: 580px;
+			margin-left: 15%;
+			margin-right: 15%;
+			background-size: 100% 100%;
+			background-image: url(../img/start_pic_03.jpg);
+		}
+		
+		.div1 {
+			width: 330px;
+			min-height: 340px;
+			float: right;
+			margin-top: 62px;
+			background: #FFF;
+			border-radius: 6px;
+		}
+		
+		.div1 .zc {
+			text-align: center;
+			width: 100%;
+			padding-top: 40px;
+			font-size: 20px;
+		}
+		
+		.div1 .yz {
+			width: 100%;
+			margin-top: 22px;
+		}
+		
+		.div1 .yz_1 {
+			margin-top: 16px;
+			position: relative;
+		}
+		
+		.div1 .yz .con {
+			height: 36px;
+			width: 224px;
+			padding-right: 50px;
+			line-height: 36px;
+			display: block;
+			border: 1px solid #cccccc;
+			border-radius: 6px;
+			-webkit-border-radius: 6px;
+			-ms-border-radius: 6px;
+			-o-border-radius: 6px;
+			-moz-border-radius: 6px;
+			font-size: 14px;
+			margin: 0 28px;
+			text-indent: 45px;
+			outline: none;
+			color: #333;
+		}
+		
+		.div1 .yz .tb1 {
+			margin-top: 0;
+			background: url(../img/login_icon_people_03.png) no-repeat 16px 16px;
+			background-position: 10px 10px;
+		}
+		
+		.div1 .yz .tb2 {
+			background: url(../img/login_lock_06.png) !important;
+		}
+		
+		.div1 .yz .yz_btn0 {
+			position: absolute;
+			display: block;
+			height: 38px;
+			top: 1px;
+			right: 38px;
+			width: 24px;
+			cursor: pointer;
+			background: url(../img/i-analysis-system-user-icon.png) no-repeat -23px 7px;
+		}
+		
+		.div1 .yz .yz_btn1 {
+			position: absolute;
+			display: block;
+			height: 38px;
+			top: 1px;
+			right: 38px;
+			width: 24px;
+			cursor: pointer;
+			background: url(../img/i-analysis-system-user-icon.png) no-repeat -23px 7px;
+		}
+		
+		.div1 .yz .tb3 {
+			margin-top: 0;
+			background: url(../img/login_icon_people_03.png) no-repeat 16px 16px;
+			background-position: 10px 10px;
+		}
+		
+		.login_code {
+			margin-top: 16px;
+			position: relative;
+		}
+		
+		.input_code {
+			background: url(../img/i-c-login-code-decoration.png) no-repeat 14px 11px;
+			padding-right: 130px;
+			width: 144px;
+		}
+		
+		.yz_1_yzm {
+			position: absolute;
+			width: 80px;
+			height: 38px;
+			top: 1px;
+			right: 25px;
+		}
+		
+		.yz_1_yzm img {
+			width: 100%;
+			height: 100%;
+			cursor: pointer;
+		}
+		
+		.input_common {
+			height: 36px;
+			width: 224px;
+			padding-right: 50px;
+			line-height: 36px;
+			display: block;
+			border: 1px solid #cccccc;
+			border-radius: 6px;
+			-webkit-border-radius: 6px;
+			-ms-border-radius: 6px;
+			-o-border-radius: 6px;
+			-moz-border-radius: 6px;
+			font-size: 14px;
+			margin: 0 28px;
+			text-indent: 45px;
+			outline: none;
+			color: #333;
+		}
+		
+		.yz_1_yzm_x0 {
+			position: absolute;
+			display: block;
+			height: 38px;
+			top: 1px;
+			right: 118px;
+			width: 24px;
+			cursor: pointer;
+			background: url(../img/i-analysis-system-user-icon.png) no-repeat -23px 7px;
+		}
+		
+		.yz_1_yzm_x1 {
+			position: absolute;
+			display: block;
+			height: 38px;
+			top: 1px;
+			right: 118px;
+			width: 24px;
+			cursor: pointer;
+			background: url(../img/i-analysis-system-user-icon.png) no-repeat -23px 7px;
+		}
+		
+		.yzm {
+			background: url(../img/i-c-login-sms-code-decoration.png) no-repeat 12px 11px;
+			padding-right: 130px;
+			width: 144px;
+		}
+		
+		.login_code_decoration {
+			position: absolute;
+			width: 80px;
+			height: 38px;
+			top: 1px;
+			right: 25px;
+		}
+		
+		.login_d_sms {
+			height: 22px;
+			text-align: center;
+			margin-top: 8px;
+			border-left: 1px solid #d8d8d8;
+			line-height: 22px;
+			font-size: 14px;
+		}
+		
+		.login_d_sms a {
+			display: block;
+			height: 100%;
+			color: #a6a6a6;
+			text-decoration: none;
+		}
+		
+		.dlan {
+			margin-top: 40px;
+			margin-bottom: 62px;
+			margin-left: 29px;
+		}
+		
+		.dl {
+			display: block;
+			width: 274px;
+			height: 36px;
+			line-height: 36px;
+			color: #FFF;
+			border: none;
+			border-radius: 3px;
+			background: #379cea;
+			font-size: 18px;
+			letter-spacing: 8px;
+		}
+		
+		#sms_code_btn {
+			cursor: pointer;
+		}

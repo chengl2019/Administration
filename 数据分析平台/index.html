@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/jquery-1.9.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/echarts.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+
+	<body>
+
+		<header>
+			<div class="header_div">
+				深度空间数据分析平台
+			</div>
+		</header>
+
+		<div id="ss">
+			<!--左侧切换按钮-->
+			<article>
+				<div class="zuoann_div0">
+					<img src="img/icon_shouye1.png" />
+					<span>总体概况</span>
+				</div>
+
+				<div class="zuoann_div1">
+					<img src="img/icon_shanghu2.png" /> 商户分析
+				</div>
+				<div class="zuoann_div2">
+					<a href="Merchant.html">选项卡1</a>
+					<a href="#">选项卡2</a>
+					<a href="#">选项卡3</a>
+					<a href="#">选项卡4</a>
+					<a href="#">选项卡5</a>
+				</div>
+
+				<div class="zuoann_div1">
+					<img src="img/icon_shanghu2.png" /> 渠道分析
+				</div>
+				<div class="zuoann_div2">
+					<a href="#">选项卡1</a>
+					<a href="#">选项卡2</a>
+					<a href="#">选项卡3</a>
+				</div>
+
+				<div class="zuoann_div1">
+					<img src="img/icon_qudao2.png" /> 商户分析
+				</div>
+				<div class="zuoann_div2">
+					<a href="#">选项卡1</a>
+					<a href="#">选项卡2</a>
+					<a href="#">选项卡3</a>
+					<a href="#">选项卡4</a>
+				</div>
+
+				<div class="zuoann_div1">
+					<img src="img/icon_yinhang2.png" /> 平台分析
+				</div>
+				<div class="zuoann_div2">
+					<a href="#">选项卡1</a>
+					<a href="#">选项卡2</a>
+					<a href="#">选项卡3</a>
+				</div>
+
+				<div class="zuoann_div1">
+					<img src="img/icon_yonghu2.png" /> 用户分析
+				</div>
+				<div class="zuoann_div2">
+					<a href="#">选项卡1</a>
+					<a href="#">选项卡2</a>
+					<a href="#">选项卡3</a>
+					<a href="#">选项卡4</a>
+				</div>
+
+			</article>
+
+			<!--右侧内容-->
+			<div class="you">
+				<div class="you_div">
+					<iframe src="Merchant.html" width="300" height="100" style="background-color: blue;"></iframe>
+				</div>
+			</div>
+
+		</div>
+	</body>
+	<script>
+		$(".zuoann_div1").on("click", function() {
+			$(this).next().slideToggle(300);
+			$('.zuoann_div2').not($(this).next()).slideUp('fast');
+		});
+		
+		
+		
+	</script>
+
+</html>
